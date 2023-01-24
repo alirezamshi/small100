@@ -23,7 +23,7 @@ Contents
 
 Demo
 --------------  
-The demo fo SMaLL-100 model is available [here](https://huggingface.co/spaces/alirezamsh/small100).
+The demo of SMaLL-100 model is available [here](https://huggingface.co/spaces/alirezamsh/small100).
 
 <a name="fairseq"/>  
 
