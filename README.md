@@ -12,12 +12,18 @@ We provide the checkpoint in both Fairseq and Huggingface🤗 formats.
 
 Contents
 ---------------
-
+- [Demo](#demo)
 - [Fairseq](#fairseq)
 - [Huggingface🤗](#huggingface)
 - [Tokenization + spBLEU](#tokenize)
 - [Languages Covered](#languages)
 - [Citation](#citation)
+
+<a name="demo"/>  
+
+Demo
+--------------  
+The demo fo SMaLL-100 model is available [here](https://huggingface.co/spaces/alirezamsh/small100).
 
 <a name="fairseq"/>  
 
