@@ -153,12 +153,42 @@ Citation
 
 If you use this code for your research, please cite the following work:
 ```
-@article{mohammadshahi2022small,
-  title={SMaLL-100: Introducing Shallow Multilingual Machine Translation Model for Low-Resource Languages},
-  author={Mohammadshahi, Alireza and Nikoulina, Vassilina and Berard, Alexandre and Brun, Caroline and Henderson, James and Besacier, Laurent},
-  journal={arXiv preprint arXiv:2210.11621},
-  year={2022}
+@inproceedings{mohammadshahi-etal-2022-small,
+    title = "{SM}a{LL}-100: Introducing Shallow Multilingual Machine Translation Model for Low-Resource Languages",
+    author = "Mohammadshahi, Alireza  and
+      Nikoulina, Vassilina  and
+      Berard, Alexandre  and
+      Brun, Caroline  and
+      Henderson, James  and
+      Besacier, Laurent",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.571",
+    pages = "8348--8359",
+    abstract = "In recent years, multilingual machine translation models have achieved promising performance on low-resource language pairs by sharing information between similar languages, thus enabling zero-shot translation. To overcome the {``}curse of multilinguality{''}, these models often opt for scaling up the number of parameters, which makes their use in resource-constrained environments challenging. We introduce SMaLL-100, a distilled version of the M2M-100(12B) model, a massively multilingual machine translation model covering 100 languages. We train SMaLL-100 with uniform sampling across all language pairs and therefore focus on preserving the performance of low-resource languages. We evaluate SMaLL-100 on different low-resource benchmarks: FLORES-101, Tatoeba, and TICO-19 and demonstrate that it outperforms previous massively multilingual models of comparable sizes (200-600M) while improving inference latency and memory usage. Additionally, our model achieves comparable results to M2M-100 (1.2B), while being 3.6x smaller and 4.3x faster at inference.",
 }
+
+@inproceedings{mohammadshahi-etal-2022-compressed,
+    title = "What Do Compressed Multilingual Machine Translation Models Forget?",
+    author = "Mohammadshahi, Alireza  and
+      Nikoulina, Vassilina  and
+      Berard, Alexandre  and
+      Brun, Caroline  and
+      Henderson, James  and
+      Besacier, Laurent",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.317",
+    pages = "4308--4329",
+    abstract = "Recently, very large pre-trained models achieve state-of-the-art results in various natural language processing (NLP) tasks, but their size makes it more challenging to apply them in resource-constrained environments. Compression techniques allow to drastically reduce the size of the models and therefore their inference time with negligible impact on top-tier metrics. However, the general performance averaged across multiple tasks and/or languages may hide a drastic performance drop on under-represented features, which could result in the amplification of biases encoded by the models. In this work, we assess the impact of compression methods on Multilingual Neural Machine Translation models (MNMT) for various language groups, gender, and semantic biases by extensive analysis of compressed models on different machine translation benchmarks, i.e. FLORES-101, MT-Gender, and DiBiMT. We show that the performance of under-represented languages drops significantly, while the average BLEU metric only slightly decreases. Interestingly, the removal of noisy memorization with compression leads to a significant improvement for some medium-resource languages. Finally, we demonstrate that compression amplifies intrinsic gender and semantic biases, even in high-resource languages.",
+}
+
 ```
 Have a question not listed here? Open [a GitHub Issue](https://github.com/alirezamshi/small100/issues) or 
 send us an [email](alireza.mohammadshahi@idiap.ch).
